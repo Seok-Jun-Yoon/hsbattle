@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HSB Tier Lists</title>
+  <link rel="stylesheet" href="hsb_0420.css">
+</head>
+<body>
+  <main class="page">
+    <header class="page-header">
+      <div class="page-header__top">
+        <div>
+          <p class="page-kicker">Hearthstone Battlegrounds</p>
+          <h1>Tier Lists</h1>
+        </div>
+        <button id="dark-mode-toggle" class="theme-toggle" type="button">Dark Mode</button>
+      </div>
+      <p class="page-copy">탭으로 덱/장신구 리스트를 전환하고, 현재 탭 기준 종족 필터로 원하는 조합만 빠르게 볼 수 있습니다.</p>
+    </header>
+
+    <section class="tier-list-panel" aria-labelledby="tier-list-title">
+      <div class="filter-panel">
+        <div class="filter-panel__head">
+          <div>
+            <p class="section-kicker">Tier Category</p>
+            <div id="category-tabs" class="category-tabs" role="tablist" aria-label="티어 카테고리">
+              <button class="category-tab is-active" type="button" role="tab" aria-selected="true" data-category="deck">deck tier list</button>
+              <button class="category-tab" type="button" role="tab" aria-selected="false" data-category="trinket">장신구 tier list</button>
+            </div>
+            <h2 id="tier-list-title">deck tier list</h2>
+          </div>
+          <p id="section-note" class="section-note">종족 버튼은 여러 개를 동시에 선택할 수 있습니다. 아무 것도 선택하지 않으면 전체 덱이 표시됩니다.</p>
+        </div>
+        <div id="tribe-filter" class="tribe-filter" aria-label="종족 필터"></div>
+      </div>
+
+      <div id="tier-list" class="tier-list" aria-live="polite">
+        <article class="loading-card">데이터를 불러오는 중입니다.</article>
+      </div>
+    </section>
+  </main>
+
+  <script src="deck-data.js" defer></script>
+  <script src="hsb_0420.js" defer></script>
+</body>
+</html>

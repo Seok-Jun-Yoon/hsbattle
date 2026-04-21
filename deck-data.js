@@ -1,0 +1,565 @@
+window.HSB_DATA = {
+  "deck": {
+    "SSS": [
+      {
+        "name": "연잇기",
+        "tribes": [],
+        "guide": "초반에 순방을 하듯 일단 강한덱으로 버티면서 **주문강화를 꾸준히하며 최종 카드들을 모으면됨.\n핵심 기물들이 무종족이라 어떠한 판에도 빌드 가능.",
+        "trinketCard": null,
+        "finalDeckCard": {
+          "name": "최종덱.png",
+          "path": "deck/SSS/연잇기/최종덱.png"
+        },
+        "coreCards": [
+          {
+            "name": "1.png",
+            "path": "deck/SSS/연잇기/1.png"
+          },
+          {
+            "name": "2.png",
+            "path": "deck/SSS/연잇기/2.png"
+          },
+          {
+            "name": "3.png",
+            "path": "deck/SSS/연잇기/3.png"
+          },
+          {
+            "name": "4.png",
+            "path": "deck/SSS/연잇기/4.png"
+          },
+          {
+            "name": "5.png",
+            "path": "deck/SSS/연잇기/5.png"
+          }
+        ],
+        "buildCards": [
+          {
+            "name": "ff30fc6ac4858bc4b4d9b7553b698fe448497d14c5182ede7cb584ba2ead7705.png",
+            "path": "deck/SSS/연잇기/build/ff30fc6ac4858bc4b4d9b7553b698fe448497d14c5182ede7cb584ba2ead7705.png"
+          }
+        ]
+      }
+    ],
+    "SS": [
+      {
+        "name": "독 날먹",
+        "tribes": [
+          "멀록"
+        ],
+        "guide": "상대가 언데드면 서렌. 그 외 모든덱의 상위호환.",
+        "trinketCard": null,
+        "finalDeckCard": {
+          "name": "최종덱.png",
+          "path": "deck/SS/독 날먹/최종덱.png"
+        },
+        "coreCards": [
+          {
+            "name": "1.png",
+            "path": "deck/SS/독 날먹/1.png"
+          },
+          {
+            "name": "2.png",
+            "path": "deck/SS/독 날먹/2.png"
+          },
+          {
+            "name": "3.png",
+            "path": "deck/SS/독 날먹/3.png"
+          },
+          {
+            "name": "4.png",
+            "path": "deck/SS/독 날먹/4.png"
+          },
+          {
+            "name": "5.png",
+            "path": "deck/SS/독 날먹/5.png"
+          }
+        ],
+        "buildCards": []
+      },
+      {
+        "name": "먹이 악마",
+        "tribes": [
+          "악마"
+        ],
+        "guide": "상점강화는 처음에 크게 신경쓰지는 말것. 5성의 뒤틀린 격노수호병과 브란이 핵심.",
+        "trinketCard": null,
+        "finalDeckCard": null,
+        "coreCards": [
+          {
+            "name": "1.png",
+            "path": "deck/SS/먹이 악마/1.png"
+          },
+          {
+            "name": "2.png",
+            "path": "deck/SS/먹이 악마/2.png"
+          },
+          {
+            "name": "3.png",
+            "path": "deck/SS/먹이 악마/3.png"
+          },
+          {
+            "name": "4.png",
+            "path": "deck/SS/먹이 악마/4.png"
+          }
+        ],
+        "buildCards": [
+          {
+            "name": "136e6fb079d9c15babe68a65ac9b5250ce81530780a8e7dc1fe72c3a5479124d.png",
+            "path": "deck/SS/먹이 악마/build/136e6fb079d9c15babe68a65ac9b5250ce81530780a8e7dc1fe72c3a5479124d.png"
+          },
+          {
+            "name": "105897f9d46903b26521749f8ad1fe262110e722bf7751d26a4a06ca46c0a3b6.png",
+            "path": "deck/SS/먹이 악마/build/105897f9d46903b26521749f8ad1fe262110e722bf7751d26a4a06ca46c0a3b6.png"
+          }
+        ]
+      },
+      {
+        "name": "치맥 정령",
+        "tribes": [
+          "정령"
+        ],
+        "guide": "5성의 아제라이트와 4성의 지맥은 절대 팔아선 안됨.",
+        "trinketCard": null,
+        "finalDeckCard": null,
+        "coreCards": [
+          {
+            "name": "1.png",
+            "path": "deck/SS/치맥 정령/1.png"
+          },
+          {
+            "name": "2.png",
+            "path": "deck/SS/치맥 정령/2.png"
+          },
+          {
+            "name": "3.png",
+            "path": "deck/SS/치맥 정령/3.png"
+          },
+          {
+            "name": "4.png",
+            "path": "deck/SS/치맥 정령/4.png"
+          }
+        ],
+        "buildCards": [
+          {
+            "name": "136e6fb079d9c15babe68a65ac9b5250ce81530780a8e7dc1fe72c3a5479124d.png",
+            "path": "deck/SS/치맥 정령/build/136e6fb079d9c15babe68a65ac9b5250ce81530780a8e7dc1fe72c3a5479124d.png"
+          },
+          {
+            "name": "193de7fa0dd9298860d8677d319f529b53082de896217bc4651f110a68de7cd8.png",
+            "path": "deck/SS/치맥 정령/build/193de7fa0dd9298860d8677d319f529b53082de896217bc4651f110a68de7cd8.png"
+          },
+          {
+            "name": "8336d14fe0930630f0f455ae361a59cbb28a2b2f1bdb25b54949b43f07e42622.png",
+            "path": "deck/SS/치맥 정령/build/8336d14fe0930630f0f455ae361a59cbb28a2b2f1bdb25b54949b43f07e42622.png"
+          }
+        ]
+      },
+      {
+        "name": "해적 엑조디아",
+        "tribes": [
+          "해적",
+          "야수"
+        ],
+        "guide": "",
+        "trinketCard": null,
+        "finalDeckCard": {
+          "name": "최종덱.png",
+          "path": "deck/SS/해적 엑조디아/최종덱.png"
+        },
+        "coreCards": [
+          {
+            "name": "1.png",
+            "path": "deck/SS/해적 엑조디아/1.png"
+          },
+          {
+            "name": "2.png",
+            "path": "deck/SS/해적 엑조디아/2.png"
+          },
+          {
+            "name": "3.png",
+            "path": "deck/SS/해적 엑조디아/3.png"
+          }
+        ],
+        "buildCards": [
+          {
+            "name": "5de684b670971418b81bf6e30b03f3801f283aab883274ababcfa2f3209c6421.png",
+            "path": "deck/SS/해적 엑조디아/build/5de684b670971418b81bf6e30b03f3801f283aab883274ababcfa2f3209c6421.png"
+          },
+          {
+            "name": "739fa0bdc35fb24a8e6c6398c9e6a274a100d606f90a8ee11b2a3b688ac77e4d.png",
+            "path": "deck/SS/해적 엑조디아/build/739fa0bdc35fb24a8e6c6398c9e6a274a100d606f90a8ee11b2a3b688ac77e4d.png"
+          },
+          {
+            "name": "503134e0eca0334c133aa5b389a59413cd54b4b12ec5d024bb67abde6cf0a989.png",
+            "path": "deck/SS/해적 엑조디아/build/503134e0eca0334c133aa5b389a59413cd54b4b12ec5d024bb67abde6cf0a989.png"
+          },
+          {
+            "name": "a33ba8511527421a9c02ce019b6d415f425d93da8269ea8b425374fd9b232d34.png",
+            "path": "deck/SS/해적 엑조디아/build/a33ba8511527421a9c02ce019b6d415f425d93da8269ea8b425374fd9b232d34.png"
+          }
+        ]
+      }
+    ],
+    "S": [
+      {
+        "name": "도살의 언데드",
+        "tribes": [
+          "언데드"
+        ],
+        "guide": "4성의 외눈깨비와 5성의 도살자를 얼마나 빨리 get하느냐가 핵심",
+        "trinketCard": null,
+        "finalDeckCard": {
+          "name": "최종덱.png",
+          "path": "deck/S/도살의 언데드/최종덱.png"
+        },
+        "coreCards": [
+          {
+            "name": "1.png",
+            "path": "deck/S/도살의 언데드/1.png"
+          },
+          {
+            "name": "2.png",
+            "path": "deck/S/도살의 언데드/2.png"
+          },
+          {
+            "name": "3.png",
+            "path": "deck/S/도살의 언데드/3.png"
+          }
+        ],
+        "buildCards": [
+          {
+            "name": "193de7fa0dd9298860d8677d319f529b53082de896217bc4651f110a68de7cd8.png",
+            "path": "deck/S/도살의 언데드/build/193de7fa0dd9298860d8677d319f529b53082de896217bc4651f110a68de7cd8.png"
+          },
+          {
+            "name": "e54ec0bf8678c4b9df1c0f2016214b81740f3d219d2f9aa74a47cfb61321ff7d.png",
+            "path": "deck/S/도살의 언데드/build/e54ec0bf8678c4b9df1c0f2016214b81740f3d219d2f9aa74a47cfb61321ff7d.png"
+          }
+        ]
+      },
+      {
+        "name": "메탈헤드 가멧",
+        "tribes": [
+          "가시멧돼지",
+          "야수"
+        ],
+        "guide": "완성만 한다면 사실상 SS급이지만, 완성까지의 시간이 좀 걸림. 메탈헤드가 필수라 가멧,야수 두 종족이 나왔을때 할만함.",
+        "trinketCard": null,
+        "finalDeckCard": null,
+        "coreCards": [
+          {
+            "name": "1.png",
+            "path": "deck/S/메탈헤드 가멧/1.png"
+          },
+          {
+            "name": "2.png",
+            "path": "deck/S/메탈헤드 가멧/2.png"
+          },
+          {
+            "name": "3.png",
+            "path": "deck/S/메탈헤드 가멧/3.png"
+          },
+          {
+            "name": "4.png",
+            "path": "deck/S/메탈헤드 가멧/4.png"
+          },
+          {
+            "name": "5.png",
+            "path": "deck/S/메탈헤드 가멧/5.png"
+          },
+          {
+            "name": "6.png",
+            "path": "deck/S/메탈헤드 가멧/6.png"
+          },
+          {
+            "name": "7.png",
+            "path": "deck/S/메탈헤드 가멧/7.png"
+          }
+        ],
+        "buildCards": []
+      },
+      {
+        "name": "빠나나 야수",
+        "tribes": [
+          "야수"
+        ],
+        "guide": "거대괴수를 조금이라도 빨리 뽑는게 중요. 상대 언데드면 힘듬.",
+        "trinketCard": null,
+        "finalDeckCard": null,
+        "coreCards": [
+          {
+            "name": "1.png",
+            "path": "deck/S/빠나나 야수/1.png"
+          },
+          {
+            "name": "2.png",
+            "path": "deck/S/빠나나 야수/2.png"
+          },
+          {
+            "name": "3.png",
+            "path": "deck/S/빠나나 야수/3.png"
+          }
+        ],
+        "buildCards": []
+      },
+      {
+        "name": "순방 가멧",
+        "tribes": [
+          "가시멧돼지"
+        ],
+        "guide": "날카로운 피리꾼을 필두로 가멧빌드. 후반엔 뾰족 작곡가와 복어깃으로 독소 리필 가능.\n상대 언데드 없다면 갈만한 무난한 순방덱",
+        "trinketCard": null,
+        "finalDeckCard": {
+          "name": "최종덱.png",
+          "path": "deck/S/순방 가멧/최종덱.png"
+        },
+        "coreCards": [
+          {
+            "name": "1.png",
+            "path": "deck/S/순방 가멧/1.png"
+          },
+          {
+            "name": "2.png",
+            "path": "deck/S/순방 가멧/2.png"
+          },
+          {
+            "name": "3.png",
+            "path": "deck/S/순방 가멧/3.png"
+          },
+          {
+            "name": "4.png",
+            "path": "deck/S/순방 가멧/4.png"
+          }
+        ],
+        "buildCards": [
+          {
+            "name": "0d877ef3900cf5ef12f30ca178dd6fb564efa47e997f82b450f8af2a53fb1f8f.png",
+            "path": "deck/S/순방 가멧/build/0d877ef3900cf5ef12f30ca178dd6fb564efa47e997f82b450f8af2a53fb1f8f.png"
+          },
+          {
+            "name": "44.png",
+            "path": "deck/S/순방 가멧/build/44.png"
+          },
+          {
+            "name": "6906b5a3f571cbb8d26c29dcc6b60df5160cd1572ad972f48ca89ca3b04a9689.png",
+            "path": "deck/S/순방 가멧/build/6906b5a3f571cbb8d26c29dcc6b60df5160cd1572ad972f48ca89ca3b04a9689.png"
+          },
+          {
+            "name": "ab45aea32743a62e62ec4fb21998d993706d354e0e4eefb3d5cc11875100f6a0.png",
+            "path": "deck/S/순방 가멧/build/ab45aea32743a62e62ec4fb21998d993706d354e0e4eefb3d5cc11875100f6a0.png"
+          }
+        ]
+      },
+      {
+        "name": "스테고돈 야수",
+        "tribes": [
+          "야수"
+        ],
+        "guide": "스테고돈과 닭트론을 반드시 가져갈것.",
+        "trinketCard": null,
+        "finalDeckCard": null,
+        "coreCards": [
+          {
+            "name": "1.png",
+            "path": "deck/S/스테고돈 야수/1.png"
+          },
+          {
+            "name": "2.png",
+            "path": "deck/S/스테고돈 야수/2.png"
+          },
+          {
+            "name": "3.png",
+            "path": "deck/S/스테고돈 야수/3.png"
+          }
+        ],
+        "buildCards": []
+      }
+    ],
+    "A": [
+      {
+        "name": "골드린 야수",
+        "tribes": [
+          "야수"
+        ],
+        "guide": "반드시 골드린을 뽑아주세요",
+        "trinketCard": null,
+        "finalDeckCard": null,
+        "coreCards": [
+          {
+            "name": "1.png",
+            "path": "deck/A/골드린 야수/1.png"
+          },
+          {
+            "name": "2.png",
+            "path": "deck/A/골드린 야수/2.png"
+          },
+          {
+            "name": "3.png",
+            "path": "deck/A/골드린 야수/3.png"
+          },
+          {
+            "name": "4.png",
+            "path": "deck/A/골드린 야수/4.png"
+          }
+        ],
+        "buildCards": [
+          {
+            "name": "3ad0b159e7aadf5c75af1fac1425bb644ed34aa2f3bb39c14fbfd0efc9d0326e.png",
+            "path": "deck/A/골드린 야수/build/3ad0b159e7aadf5c75af1fac1425bb644ed34aa2f3bb39c14fbfd0efc9d0326e.png"
+          },
+          {
+            "name": "477d1361a9065bf3e27b6cab01a5115fc11a77e09d1d57abc774375ccc221f0f.png",
+            "path": "deck/A/골드린 야수/build/477d1361a9065bf3e27b6cab01a5115fc11a77e09d1d57abc774375ccc221f0f.png"
+          }
+        ]
+      },
+      {
+        "name": "넘치기 언데드",
+        "tribes": [
+          "언데드",
+          "야수"
+        ],
+        "guide": "야수가 없다면 힘듬. 또한 나가가 있다면, 초반에 용암 잠복꾼에 죽메 야수 주문제작 발라서 빌드업.",
+        "trinketCard": null,
+        "finalDeckCard": {
+          "name": "최종덱.png",
+          "path": "deck/A/넘치기 언데드/최종덱.png"
+        },
+        "coreCards": [
+          {
+            "name": "1.png",
+            "path": "deck/A/넘치기 언데드/1.png"
+          },
+          {
+            "name": "2.png",
+            "path": "deck/A/넘치기 언데드/2.png"
+          },
+          {
+            "name": "3.png",
+            "path": "deck/A/넘치기 언데드/3.png"
+          },
+          {
+            "name": "4.png",
+            "path": "deck/A/넘치기 언데드/4.png"
+          }
+        ],
+        "buildCards": [
+          {
+            "name": "4d1363ea6b970030f14a36f7530a1f2887ea6ae6394fd2593ea732506f772685.png",
+            "path": "deck/A/넘치기 언데드/build/4d1363ea6b970030f14a36f7530a1f2887ea6ae6394fd2593ea732506f772685.png"
+          },
+          {
+            "name": "e6369a79db7bdd3b651aa66458082d88bdb69e6f0e9beff4c4646bfe79c86f59.png",
+            "path": "deck/A/넘치기 언데드/build/e6369a79db7bdd3b651aa66458082d88bdb69e6f0e9beff4c4646bfe79c86f59.png"
+          }
+        ]
+      },
+      {
+        "name": "순방 나가",
+        "tribes": [
+          "나가"
+        ],
+        "guide": "진짜 다른거 정 할게 없고 억까가 많다면, 이 덱을 할 것.\n반드시 대지파괴자와 브란이 있어야 돌아감.",
+        "trinketCard": null,
+        "finalDeckCard": null,
+        "coreCards": [
+          {
+            "name": "1.png",
+            "path": "deck/A/순방 나가/1.png"
+          },
+          {
+            "name": "2.png",
+            "path": "deck/A/순방 나가/2.png"
+          },
+          {
+            "name": "3.png",
+            "path": "deck/A/순방 나가/3.png"
+          },
+          {
+            "name": "4.png",
+            "path": "deck/A/순방 나가/4.png"
+          }
+        ],
+        "buildCards": []
+      },
+      {
+        "name": "자동화 기계",
+        "tribes": [
+          "기계"
+        ],
+        "guide": "이번 시즌 대표 순방덱이자 사실상 기계 종족의 유일덱. 고대의 전투로봇을 초반에 뽑았다면 시도해볼만함. \n다만 고점은 낮음",
+        "trinketCard": null,
+        "finalDeckCard": null,
+        "coreCards": [
+          {
+            "name": "1.png",
+            "path": "deck/A/자동화 기계/1.png"
+          },
+          {
+            "name": "2.png",
+            "path": "deck/A/자동화 기계/2.png"
+          },
+          {
+            "name": "3.png",
+            "path": "deck/A/자동화 기계/3.png"
+          },
+          {
+            "name": "4.png",
+            "path": "deck/A/자동화 기계/4.png"
+          }
+        ],
+        "buildCards": []
+      }
+    ],
+    "B": []
+  },
+  "trinket": {
+    "SSS": [
+      {
+        "name": "개구리",
+        "tribes": [
+          "야수"
+        ],
+        "guide": "초반에 야수를 필드에 올려놔서 \"개구리 장신구\"가 나온다면 실행.\n야수는 전부 환생 바르기.",
+        "trinketCard": {
+          "name": "trinket.png",
+          "path": "trinket/SSS/개구리/trinket.png"
+        },
+        "finalDeckCard": null,
+        "coreCards": [
+          {
+            "name": "1.png",
+            "path": "trinket/SSS/개구리/1.png"
+          },
+          {
+            "name": "2.png",
+            "path": "trinket/SSS/개구리/2.png"
+          },
+          {
+            "name": "3.png",
+            "path": "trinket/SSS/개구리/3.png"
+          },
+          {
+            "name": "4.png",
+            "path": "trinket/SSS/개구리/4.png"
+          },
+          {
+            "name": "5.png",
+            "path": "trinket/SSS/개구리/5.png"
+          },
+          {
+            "name": "6.png",
+            "path": "trinket/SSS/개구리/6.png"
+          }
+        ],
+        "buildCards": []
+      }
+    ],
+    "SS": [],
+    "S": [],
+    "A": [],
+    "B": []
+  }
+};
+window.DECK_DATA = window.HSB_DATA.deck;
+window.TRINKET_DATA = window.HSB_DATA.trinket;
