@@ -15,9 +15,7 @@ const tribeFilterElement = document.querySelector("#tribe-filter");
 const tierListTitleElement = document.querySelector("#tier-list-title");
 const sectionNoteElement = document.querySelector("#section-note");
 const categoryTabsElement = document.querySelector("#category-tabs");
-const darkModeToggleElement = document.querySelector("#dark-mode-toggle");
-
-const DARK_MODE_STORAGE_KEY = "hsb-dark-mode";
+const cardPreviewElement = createCardPreviewElement();
 
 const allData = {
   deck: null,
@@ -75,6 +73,87 @@ function renderCardStrip(cards, heading) {
       </div>
     </section>
   `;
+}
+
+function createCardPreviewElement() {
+  const preview = document.createElement("div");
+  preview.className = "card-preview";
+  preview.setAttribute("aria-hidden", "true");
+  preview.innerHTML = '<img alt="">';
+  document.body.append(preview);
+  return preview;
+}
+
+function positionCardPreview(event) {
+  const margin = 12;
+  const offset = 18;
+  const rect = cardPreviewElement.getBoundingClientRect();
+  let left = event.clientX + offset;
+  let top = event.clientY + offset;
+
+  if (left + rect.width > window.innerWidth - margin) {
+    left = event.clientX - rect.width - offset;
+  }
+
+  if (top + rect.height > window.innerHeight - margin) {
+    top = window.innerHeight - rect.height - margin;
+  }
+
+  cardPreviewElement.style.left = `${Math.max(margin, left)}px`;
+  cardPreviewElement.style.top = `${Math.max(margin, top)}px`;
+}
+
+function bindCardPreview() {
+  const supportsHover = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+  if (!supportsHover) {
+    return;
+  }
+
+  let activeImage = null;
+  const previewImage = cardPreviewElement.querySelector("img");
+
+  tierListElement.addEventListener("pointerover", (event) => {
+    const image = event.target.closest(".card-thumb img");
+
+    if (!image || image === activeImage) {
+      return;
+    }
+
+    activeImage = image;
+    previewImage.src = image.currentSrc || image.src;
+    previewImage.alt = image.alt;
+    cardPreviewElement.classList.toggle("is-final-deck", Boolean(image.closest(".is-final-deck")));
+    cardPreviewElement.classList.add("is-visible");
+    positionCardPreview(event);
+  });
+
+  tierListElement.addEventListener("pointermove", (event) => {
+    if (activeImage) {
+      positionCardPreview(event);
+    }
+  });
+
+  tierListElement.addEventListener("pointerout", (event) => {
+    const image = event.target.closest(".card-thumb img");
+
+    if (!image || image !== activeImage) {
+      return;
+    }
+
+    activeImage = null;
+    cardPreviewElement.classList.remove("is-visible", "is-final-deck");
+    previewImage.removeAttribute("src");
+  });
+
+  window.addEventListener("scroll", () => {
+    if (!activeImage) {
+      return;
+    }
+
+    activeImage = null;
+    cardPreviewElement.classList.remove("is-visible", "is-final-deck");
+    previewImage.removeAttribute("src");
+  });
 }
 
 function renderDeckMeta(tribes) {
@@ -309,26 +388,6 @@ function bindCategoryTabs() {
   });
 }
 
-function setupDarkMode() {
-  const savedPreference = localStorage.getItem(DARK_MODE_STORAGE_KEY);
-  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  const shouldUseDarkMode = savedPreference ? savedPreference === "dark" : prefersDark;
-
-  document.body.classList.toggle("is-dark", shouldUseDarkMode);
-}
-
-function bindDarkModeToggle() {
-  if (!darkModeToggleElement) {
-    return;
-  }
-
-  darkModeToggleElement.addEventListener("click", () => {
-    const useDarkMode = !document.body.classList.contains("is-dark");
-    document.body.classList.toggle("is-dark", useDarkMode);
-    localStorage.setItem(DARK_MODE_STORAGE_KEY, useDarkMode ? "dark" : "light");
-  });
-}
-
 function getTribeOrder(categoryData) {
   const tribes = new Set();
 
@@ -401,6 +460,5 @@ async function loadData() {
 bindDeckToggles();
 bindTribeFilter();
 bindCategoryTabs();
-setupDarkMode();
-bindDarkModeToggle();
+bindCardPreview();
 loadData();

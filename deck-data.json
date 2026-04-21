@@ -114,6 +114,39 @@
         ]
       },
       {
+        "name": "악마",
+        "tribes": [
+          "악마"
+        ],
+        "guide": "",
+        "trinketCard": null,
+        "finalDeckCard": null,
+        "coreCards": [
+          {
+            "name": "65ba8699fd52a105a0166f39608b84b8365fa446c1f77df1365df6c91ad36b23.png",
+            "path": "deck/SS/악마/65ba8699fd52a105a0166f39608b84b8365fa446c1f77df1365df6c91ad36b23.png"
+          },
+          {
+            "name": "84df9998c535ecdb472499085ba892c647da799a243daaa36fafd96c71ae2502 (1).png",
+            "path": "deck/SS/악마/84df9998c535ecdb472499085ba892c647da799a243daaa36fafd96c71ae2502 (1).png"
+          },
+          {
+            "name": "c3ed2a3060521a154ce8a7e525fc8b63158a52771299c5afa60e9868e6777465.png",
+            "path": "deck/SS/악마/c3ed2a3060521a154ce8a7e525fc8b63158a52771299c5afa60e9868e6777465.png"
+          }
+        ],
+        "buildCards": [
+          {
+            "name": "136e6fb079d9c15babe68a65ac9b5250ce81530780a8e7dc1fe72c3a5479124d.png",
+            "path": "deck/SS/악마/build/136e6fb079d9c15babe68a65ac9b5250ce81530780a8e7dc1fe72c3a5479124d.png"
+          },
+          {
+            "name": "105897f9d46903b26521749f8ad1fe262110e722bf7751d26a4a06ca46c0a3b6.png",
+            "path": "deck/SS/악마/build/105897f9d46903b26521749f8ad1fe262110e722bf7751d26a4a06ca46c0a3b6.png"
+          }
+        ]
+      },
+      {
         "name": "치맥 정령",
         "tribes": [
           "정령"
@@ -525,7 +558,10 @@
           "name": "trinket.png",
           "path": "trinket/SSS/개구리/trinket.png"
         },
-        "finalDeckCard": null,
+        "finalDeckCard": {
+          "name": "최종덱.png",
+          "path": "trinket/SSS/개구리/최종덱.png"
+        },
         "coreCards": [
           {
             "name": "1.png",
